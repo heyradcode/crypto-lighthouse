@@ -38,7 +38,7 @@ class ReactHeader extends Component {
                             </Link>
                         </Menu.Item>
                         <Menu.Item key="source">
-                            <a href="https://github.com/heyradcode/crypto-lighthouse">
+                            <a target="_blank" href="https://github.com/heyradcode/crypto-lighthouse">
                                 <Icon theme="filled" type="github" style={iconStyle}/>Source
                             </a>
                         </Menu.Item>
