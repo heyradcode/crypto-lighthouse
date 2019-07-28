@@ -20,9 +20,11 @@ class ReactHeader extends Component {
                         style={{ lineHeight: '64px'}}
                     >
                         <Menu.Item key="logo">
+                            <Link to="/">
                             <img alt="Bestest Code's crypto-lighthouse app logo" 
                             style={{ maxHeight: '40px'}} 
                             src={logoImage}></img>
+                            </Link>
                         </Menu.Item>
                         <Menu.Item key="home">
                             <Link to="/">
